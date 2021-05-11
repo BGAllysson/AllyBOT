@@ -4543,16 +4543,6 @@ reply('❌ocorreu um erro❌\n\nTente novamente. ')
 }
 break
 
-case 'porno':
-data = fs.readFileSync('./data/Porn.js');
-jsonData = JSON.parse(data);
-randIndex = Math.floor(Math.random() * jsonData.length);
-randKey = jsonData[randIndex];
-buffer = await getBuffer(randKey.result)
-client.sendMessage(from, buffer, image, {caption: 'Hmm, safadinho (a) 😏:)', quoted: mek})
-}
-break
-
 case 'hololewd':
 try {
 msgFilter.isFiltered(from)
