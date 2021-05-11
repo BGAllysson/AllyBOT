@@ -838,7 +838,7 @@ cleitu = fs.readFileSync(`./src/cleito.webp`)
 tiringa.sendMessage(from, cleitu, sticker, {quoted: mek})
 }
 if ((budy.includes('kkkkkkkkkkk')) || (budy.includes('KKKKKKKKKK'))) {
-reply('Qual a graça?🤨')
+reply('Engraçadão você ein?🤨')
 }
 
 if (budy.match('tiringa')) {
