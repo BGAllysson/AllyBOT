@@ -1,18 +1,5 @@
-<p align="center">
-<img src="https://i.imgur.com/NBMZVYO_d.webp?maxwidth=640&shape=thumb&fidelity=medium" height="200"/>
-</p>
-<p align="center">
-<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Whatsapp--Bot Para Termux-black?colorA=red&style=for-the-badge"></a>
-</p>
-<p align="center">
-<a href="https://github.com/italuH"><img title="Criador" src="https://img.shields.io/badge/Criador-Italu-cyan.svg?style=for-the-badge&logo=github"></a>
-</p>
+## Olá, seja bem vindo, aqui é o Allysson
 
-
-## Olá, aqui é o Allysson>
-
-
-<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Gamepla
 
 <summary>Como instalar o AllyBOT<img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px"></summary>
 
@@ -33,7 +20,7 @@
 > termux-setup-storage     (você precisa dar acesso aos seus arquivos)
 > pkg install git     (necessário para baixar os arquivos do bot)
 > git clone https://github.com/italuH/Tiringa-BOT     (baixa os arquivos do bot)
-> cd Tiringa-BOT    (abre a pasta do bot)
+> cd AllyBOT    (abre a pasta do bot)
 > bash install.sh     (para instalar todas as dependências)
 
 ```
@@ -56,27 +43,27 @@
 <summary>Para quem nunca usou o Termux:
 
 ```bash
-> termux-setup-storage && pkg install git -y && git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
+> termux-setup-storage && pkg install git -y && git clone https://github.com/BGAllysson/AllyBOT && cd AllyBOT && bash install.sh && npm start
 
 ```
 
 <summary>Para quem já usa o Termux ou já usou algum bot:
 
 ```bash
-> git clone https://github.com/italuH/Tiringa-BOT && cd Tiringa-BOT && bash install.sh && npm start
+> git clone https://github.com/BGAllysson/AllyBOT && cd AllyBOT && bash install.sh && npm start
 ```
 
 <summary>Se vocé já usou o bot alguma vez use apenas:
 
 ```bash
-> cd Tiringa-BOT && npm start
+> cd AllyBOT && npm start
 ```
 
 ## Caso queira ter acesso aos arquivos do bot:
 
 
 ```bash
-> cp -r /data/data/com.termux/files/home/Tiringa-BOT /sdcard/Download  
+> cp -r /data/data/com.termux/files/home/AllyBOT/sdcard/Download  
 ```
 O comando irá copiar os arquivos do bot para a pasta /Download
 
