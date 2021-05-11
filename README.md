@@ -84,7 +84,7 @@ O comando irá copiar os arquivos do bot para a pasta /Download
 | Criador | ✔️ |
 <p align='center'>
 
-## Agradecimentos especial para o criador ITALU e para os demais contribuintes:
+## Agradecimento especial para o criador ITALU e para os demais contribuintes:
 
 - [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
 - [MhankBarBar](https://github.com/mhankbarbar)
