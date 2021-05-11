@@ -3024,7 +3024,7 @@ case 'listadmins':
 case 'listadmin':
 case 'adminlist':
 if (!isGroup) return reply(ptbr.group())
-adl = `Lista de administradores do grupo: ${groupMetadata.subject}\nTotal: ${groupAdmins.length}\n\n`
+adl = `Lista dos chefões do grupo: ${groupMetadata.subject}\nTotal: ${groupAdmins.length}\n\n`
 no = 0
 for (let admon of groupAdmins) {
 no += 1
