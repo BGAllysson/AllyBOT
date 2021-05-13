@@ -1282,7 +1282,7 @@ case 'gimage':
 case 'googleimage':
 try {
 if (!isNsfw) return reply(ptbr.nsfw())
-if (args.length < 1) return reply('Digite o que deseja buscar')
+if (args.length < 1) return reply('tá procurando o quê mano?')
 reply(ptbr.wait())
 teks = args.join(' ')
 res = await googleImage(teks, google)
